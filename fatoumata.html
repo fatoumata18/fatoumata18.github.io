@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<head>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://www.mulierchile.com/black-white-and-pink-wallpaper/black-white-and-pink-wallpaper-001.jpg');
+      background-size: cover;
+      color: gold;
+    }
+    a {
+      color: blue;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    
+    }
+    img{
+   width:150;
+   border-radius:190;
+   }
+  </style>
 
+</head>
+<body>
+  <header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Im8QGDDspyK0rCP94yn_jxLrw_q_9duMBdN5OVME0pGKNa0t">
+    <h1>fatoumata graden</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Best Poems</a></li>
+      <li><a href="#">Worst Poems</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Each One Teach One</h2>
+    <p>Adult education is essential for Democracy of India. The number of grown up illiterates is great. All college and senior School students should come forward to visit villages in the summer vacation. Each one will teach one there. This will remove illiteracy and strengthen our democracy..</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>The Stampede at Wankhade Stadium</h2>
+    <p>i happened to see a one day cricket match between Pakistan and Australia at Wankhade Stadium, Mumbai. I went for a fun. But I wit­nessed a horrible sight. Two thousand ticketless cricket fans gate crashed. There was a stampede. Three persons died and twenty were injured. Administration was responsible for it.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>FAnti Pollution Drive</h2>
+    <p>City Anti-pollution Drive demands certain steps from all the citi­zens of ABC city. All house-holders should pack the waste in a plastic bag and put the bag in front of their house. The bag will be replaced with an empty bag by the Municipal van every morning. They should maintain the cleanliness of the city. This will make the city pollution free.
+
+</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
